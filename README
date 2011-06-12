@@ -1,2 +1,43 @@
-<h1>About</h1>
-<p>OCGPlaces is a small client library designed to ease the use of the Google Places web service API within Objective-C iOS/MacOS applications.</p>
+OCGPlaces - Objective-C Google Places Client Library
+====================================================
+
+This library is designed to ease the use of the Google Places API
+within Cocoa applications for iOS/MacOS.  
+
+Google Places: http://code.google.com/apis/maps/documentation/places/
+
+Important Notes
+===============
+* Please note that this project is in no way associated with Google nor is it an endorsed
+project.
+* This library is provided as is - and as such includes no support of warranty
+* Most importantly: Please feel free to extend, re-use and abuse this code for any purpose!
+
+Functionality
+--------
+
+Initially the library has been implemented to support making requests to the API only.
+It is intended that with time and collaboration that response types and parsing will
+soon be added.
+
+At present the library offers the following funcitonality...
+* Ability to build search requests using Objective-C object types
+* An OO representation of a Google Places search request (PlacesRequest.m)
+* Ability to build a Google Places URL request string from a PlacesRequest object
+* Pre-defined constants for all supported places types
+* Pre-defined constants for all supported languages
+
+Installation
+============
+
+The easiest way to get going is to simply copy the library files into your existing
+XCode project (don't bother with the tests).
+
+Alternatively the library also builds as a static library and can be linked against.
+
+Credits
+-------
+
+* Author: Matthew McComb
+          home: www.mattmccomb.com
+          twitter: msmccomb
